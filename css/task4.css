@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+.pt1{
+    background-color: rgb(158, 156, 156);
+    width: 100%;
+    border: 2px black solid;
+}
+.pt2{
+    background-color: rgb(158, 156, 156);
+    width: 100%;
+  
+}
+.pt3{
+    background-color: gainsboro;
+}
+/* ----- */
+.frist{
+    position: relative;
+}
+.es{
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+#spann{
+    position: absolute;
+    right:100px;
+    top: 10px;
+    color: red;
+}
+/* ////////////////////////////// */
+.num{
+    border: 1px solid rgb(210, 209, 209);
+    border-radius:5px;
+}
+/* //////////////////////////////// */
+.file {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(157, 156, 156);
+    padding-top: 10px;
+  }
+ .file input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+  }
+  .fi{
+    border: 1px rgb(195, 194, 194) solid;
+    padding: 5px;
+  }
+
+  .fil2 {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(157, 156, 156);
+    padding-top: 10px;
+    width: 100%;
+    border: 1px black solid;
+  }
+ .fil2 input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+
+  }

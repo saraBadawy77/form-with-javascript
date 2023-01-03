@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../font/css/all.css">
+    <link rel="stylesheet" href="../css/task4.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+
+    <form  name=" myForm" onsubmit ="return vForm();" class="pt-3">
+        <fieldset class="border p-2">
+            <legend  class="w-auto"> Form Application</legend>
+            <div class="row"> 
+                <div class="col-12 d-flex justify-content-between">
+            <input type="text" class="form-control col-5" placeholder="First Name" id ="tex"
+            >
+            <input type="text" class="form-control col-5" placeholder="Last Name" id ="tex2" disabled>
+           
+           
+
+</div></div>
+
+
+<div class="row"> 
+    <div class="col-12 mt-3 mb-3">
+<div class="col-12 mb-3 pr-0 pl-0  frist" >
+<span id="spann"></span>
+    <i class="fa-solid fa-eye-low-vision  es"  id="eye"></i>
+        <input type="password" class="form-control" placeholder="Password"  id="pas">
+        </div>
+       
+ <input type="email" class="form-control col-12" placeholder="Email" id="email" name="email"
+
+ >
+</div></div>
+<div class="row mb-3"> 
+    <div class="col-12 d-flex justify-content-between">
+        <input type="number"  min="18" class="col-5 num">
+        <select class="form-control col-5" id="Select1" name = "country">
+<option value="-1" selected>--Please Select--</option>
+            <option value = "1">Egypt</option>
+            <option value = "2">USA</option>
+            <option value = "3">UK</option>
+          </select>
+
+
+
+</div></div>
+
+
+<div class="row"> 
+    <div class="col-12 d-flex justify-content-between">
+
+        <div class="file btn   col-5">
+          <strong> Upload Your CV</strong>
+            <input type="file" name="file"  id="cv"/>
+        </div>
+<div class="fi col-5">
+        <div class=" btn    fil2">
+            <strong>Choose File</strong>
+              <input type="file" name="file"/>
+          </div></div>
+
+
+</div></div>
+
+<div class="row "> 
+    <div class="col-12 mt-3 mb-3 ">
+       
+            <textarea class="form-control" id="textArea" rows="8"> Your Message</textarea>
+           
+          
+ 
+
+</div></div>
+<div class=" d-flex justify-content-between">
+    <button  class="btn col-5  pt3 " id="ptt"  onclick="mail();" > Reset</button>
+   
+
+<input type="submit" class="btn col-5  pt3 " id="ptt2" onclick="mail();" >
+</div>
+         </fieldset>
+    </form>
+
+</div>
+</div>
+</div>
+
+
+    <script src="../js/task4.js"></script>
+<script src="../js/jquery-3.6.2.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
